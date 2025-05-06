@@ -41,14 +41,13 @@ import {
 
 //Firebase: Initialize service
 const firebaseApp = initializeApp({
-    apiKey: "AIzaSyDuMHRwhqSABNe6BKVsCLw21YCTeFlNM9Q",
-    authDomain: "authspark-2v8ln.firebaseapp.com",
-    databaseURL: "https://authspark-2v8ln-default-rtdb.firebaseio.com",
-    projectId: "authspark-2v8ln",
-    storageBucket: "authspark-2v8ln.firebasestorage.app",
-    messagingSenderId: "797686408929",
-    appId: "1:797686408929:web:cbc0608e3610d259ddb9a0",
-    measurementId: "G-CNL93D3LCY"
+  apiKey: "AIzaSyDuMHRwhqSABNe6BKVsCLw21YCTeFlNM9Q",
+  authDomain: "authspark-2v8ln.firebaseapp.com",
+  databaseURL: "https://authspark-2v8ln-default-rtdb.firebaseio.com",
+  projectId: "authspark-2v8ln",
+  storageBucket: "authspark-2v8ln.firebasestorage.app",
+  messagingSenderId: "797686408929",
+  appId: "1:797686408929:web:a0647f8dca379800ddb9a0"  
 });
 const auth = getAuth(firebaseApp);
 const provider = new GoogleAuthProvider(firebaseApp);
