@@ -1,16 +1,39 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>aimoteles with the Gemini API</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Motel donde Mama - Autenticación</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./public/webappstyles.css" rel="stylesheet">
 </head>
 
-<body>
- 
-    <h1> aimoteles with the Gemini API</h1>
-
+<body class="full-background">
+  <div class="login-container">
+    <img src="https://i.postimg.cc/HkTpWNw6/imglalunamoteldelbg.png" alt="Logo Motel donde Mama" class="logo">
+    <div class="welcome-text">
+      <p>Bienvenido al motel</p>
+      <p>donde Mamá</p>
+    </div>
+    <div class="container-img">
+      <img alt="imagen usuarios" class="centered-image">
+    </div>
+    <div id="google-signin-button" class="google-button">
+      <span class="google-text">Inicio de sesión con Google</span>
+    </div>
+    <div id="user-info" class="text-center">
+      <span id="user-name"></span>
+    </div>
+    <div id="info-label" class="text-center text-gray-600"></div>
+    <button id="logout-button" class="btn btn-secondary logout-button">Cerrar sesión</button>
+    <div id="error-message" class="error-message"></div>
+    <button id="go-to-habitaciones" class="btn btn-primary hidden">Habitaciones</button>
+  </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="module" src="./public/index.js"></script>
 </body>
 
 </html>

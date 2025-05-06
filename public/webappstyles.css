@@ -1,0 +1,114 @@
+    body {
+        font-family: 'Inter', sans-serif;
+      }
+      .full-background {
+        background-image: url('https://i.postimg.cc/c4RxSWnK/aimotelbackground1.jpg');
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .login-container {
+        width: 450px;
+        height: 640px;
+        background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con opacidad */
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around; /* Espacio uniforme entre elementos */
+      }
+      .logo {
+        width: 200px;
+        margin-bottom: 20px;
+      }
+      .welcome-text {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #C11C84;
+        margin-bottom: 1rem;
+        text-align: center;
+        white-space: pre-line; /* Respeta los saltos de línea */
+        display: flex; 
+        flex-direction: column;
+      }
+      .google-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff; /* Blanco */
+        border: 1px solid #ccc;
+        border-radius: 25px; /* Más redondeado */
+        padding: 8px 16px;
+        width: 270px; /* Ancho del botón */
+        cursor: pointer;
+        transition: background-color 0.3s ease; /* Transición suave */
+        margin-bottom: 1rem;
+      }
+      .google-button:hover {
+        background-color: #f0f0f0; /* Gris claro al pasar el mouse */
+      }
+      .google-icon {
+        width: 20px;
+        margin-right: 10px;
+      }
+      .google-text {
+        color: #C11C84;
+        font-weight: 600; /* Texto en negrita */
+      }
+      .error-message {
+        color: red;
+        font-size: 0.9rem;
+        margin-top: 10px;
+        text-align: center;
+      }
+      .logout-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff; /* Blanco */
+        border: 1px solid #ccc;
+        border-radius: 25px; /* Más redondeado */
+        padding: 8px 16px;
+        width: 270px; /* Ancho del botón */
+        cursor: pointer;
+        transition: background-color 0.3s ease; /* Transición suave */
+        margin-bottom: 1rem;
+      }
+      #user-info {
+        font-size: 0.9rem;
+        color: black;
+        margin-bottom: 0.5rem;
+        text-align: center;
+      }
+      #logout-button {
+        margin-top: 1rem;
+        display: none;
+        color: #C11C84;
+        font-weight: 600; /* Texto en negrita */   
+      }
+      .container-img{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Para centrar verticalmente en la ventana */
+      }
+      .centered-image {
+            display: block;          /* Asegura que la imagen se comporte como un bloque */
+            margin-left: auto;
+            margin-right: auto;
+            width: 100px;
+            height: 100px;
+            /* Otras propiedades de estilo que especificaste */
+        }
+        .hidden {
+            display: none;
+        }
+        .displayblock{
+           display: block;
+        }
+               
